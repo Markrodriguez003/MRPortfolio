@@ -1,0 +1,24 @@
+@media (max-width: 800px){
+    
+    .top-header a {
+        text-align: center;
+        position: inline;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .top-header .header-brand{
+     width: 100%:
+    }
+
+/*     .top-header small {
+     
+    } */
+
+    .top-header ul {
+        padding-top: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
