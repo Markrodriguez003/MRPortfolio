@@ -24,6 +24,10 @@
     - Made slight improvements to header nav bar. Would like to work on the right nav
     links and make them buttons.
     - Worked on a simple sticky footer for all pages.
+    - Created a different nav bar for the header banner in the "about" page. I would
+    like to play around with it to make the overall design pop out a bit more.
+    - Mucked around with a brand logo for header.
+
      
      Missing: 
     - Completed Sticky Footer + Nav links for all pages except "Home" Page
