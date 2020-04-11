@@ -1,3 +1,14 @@
+.top-header{
+    font-size: 18px;
+}
+.header-brand{
+    font-size: 22px;
+}
+
+.header-brand small{
+    font-size: 13px;
+}
+
 @media (max-width: 800px){
     
     .top-header a {
@@ -8,9 +19,7 @@
         margin-right: auto;
     }
 
-    .top-header .header-brand{
-     width: 100%:
-    }
+   
 
 /*     .top-header small {
      
