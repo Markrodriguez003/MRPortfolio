@@ -33,6 +33,14 @@
     - Completed Sticky Footer + Nav links for all pages except "Home" Page
     - Portfolio with grid + side nav links anchored to project sections on page
     - Contact page improvements (contact form and contact box isn't lined up yet)
+
+***********************************************************************************
+# 4.11.2020 - Site Update (Continued) *********************************************************
     
+    - Worked on all the pages and got most of the content up and running.
+    - Finished Portfolio and added footer
+
+    Missing: 
+    - Responsive pages :(, some of the content works, some of it doesn't.
     
     

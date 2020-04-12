@@ -1,99 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Mark Anthony Patrick Rodriguez">
     <!-- <link rel="stylesheet" href="reset.css"> -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <title>Mark Rodriguez | Junior Full Stack Developer</title>
 </head>
 
 <body>
+    <!-- SITE HEADER BANNER -->
 
-<!-- SITE HEADER BANNER -->
-    <nav class="top-header d-flex flex-wrap  bg-success   border-bottom border-secondary">
-       
-       <div class="row">
-           
-      <div class="col">
-          <a href="index.html" class="header-brand navbar-Brand text-white flex-wrap flex-grow-10 font-weight-bold ">
-              <img src="imgs/brand-logo.png" alt="Four Leaf Clover Logo"> <!-- copyright https://ya-webdesign.com/ -->
-              Mark Anthony Patrick Rodriguez |
-                  <small class="font-italic">Full Stack Web Developer</small>
-          </a>
-
-      </div>
-
-        <div class="col border border-danger bg-secondary">
-
-               <ul class="list-unstyled  ">
-                <a href="about.html" class="text-white  bg-secondary rounded  border  border-danger">About</a>
-                <a href="#" class="text-white  bg-secondary rounded border border-danger">Portfolio</a>
-                <a href="#" class=" text-white bg-secondary rounded border border-danger">Contact</a>
-            </ul>
-        </div>
-         
-         </div>
-            
+    <!-- SITE HEADER BANNER -->
+    <nav class="top-header d-flex flex-wrap p-4 bg-success p-4 border-bottom border-secondary">
+        <a href="index.html" class="header-brand navbar-Brand text-white flex-grow-1 flex-wrap font-weight-bold ">
+            <img src="imgs/brand-logo.png" alt="Four Leaf Clover Logo"> <!-- copyright https://ya-webdesign.com/ -->
+            Mark Anthony Patrick Rodriguez |
+            <small class="font-italic header-small">Full Stack Web Developer</small>
+        </a>
+        <ul class="header-btns list-unstyled float-right pt-3 pr-4">
+            <a href="about.html" class="text-white p-3 bg-secondary rounded ">About</a>
+            <a href="portfolio.html" class="text-white  p-3 bg-secondary rounded">Portfolio</a>
+            <a href="contact.html" class=" text-white  p-3 bg-secondary rounded ">Contact</a>
+        </ul>
     </nav><br><br>
 
-        <!-- ABOUT ME GRID -->
+
+    <!-- ABOUT ME GRID -->
     <div class="container">
-        <div class="row">
-            
-            <div class="col p-2">
-                <img src="imgs/bio-pic.png" alt="My image">    
-                    <blockquote>
-                        <p>I don't look like this in real life..don't worry</p>
-                        <p class="quote">- Mark Rodriguez</p>
-                    </blockquote>
-            </div>    
+        <!-- ABOUT ME SECTION -->
+        <div class="row row mt-4" id="about-section">
 
-            <div class="col">
-                <h1 class="display-3">About me</h1>
-                <p>  I've always been an artist. I enjoy the love the process of creating something 
-                    out of nothing, the frustration of design and chasing the high of finishing something. 
-                    My first taste of the arts is music. I am a musician with multiple projects running
-                    side by side of each other. 
+            <!-- ABOUT ME TITLE CARD -->
+            <div class="col-4 card text-center">
+                <img src="imgs/bio-pic.png" alt="My image" class="about-image mx-auto pt-5">
+                <blockquote>
+                    <p class="blockquote pt-3"> I don't look like this in real life..don't worry</p>
+                    <p class="blockquote-footer">Mark Rodriguez</p>
+                </blockquote>
+            </div>
+            <!-- ABOUT ME TEXT BOX -->
+            <div class="col-8">
+                <h1 class="display-3"> About me
+                    <svg class="bi bi-person-bounding-box" width="1em" height="1em" viewBox="0 0 16 16"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M1.5 1a.5.5 0 00-.5.5v3a.5.5 0 01-1 0v-3A1.5 1.5 0 011.5 0h3a.5.5 0 010 1h-3zM11 .5a.5.5 0 01.5-.5h3A1.5 1.5 0 
+                        0116 1.5v3a.5.5 0 01-1 0v-3a.5.5 0 00-.5-.5h-3a.5.5 0 01-.5-.5zM.5 11a.5.5 0 01.5.5v3a.5.5 0 00.5.5h3a.5.5 0 010 1h-3A1.5 1.5 0 010 14.5v-3a.5.5 
+                        0 01.5-.5zm15 0a.5.5 0 01.5.5v3a1.5 1.5 0 01-1.5 1.5h-3a.5.5 0 010-1h3a.5.5 0 00.5-.5v-3a.5.5 0 01.5-.5z"
+                            clip-rule="evenodd" />
+                        <path fill-rule="evenodd"
+                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 100-6 3 3 0 000 6z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </h1>
+                <p> I've always been an artist. I enjoy the process of creating something
+                    out of nothing, the frustration of design and chasing the high of finishing something.
+                    My first taste of the arts is music
+                    <svg class="bi bi-music-note-beamed" width="1em" height="1em" viewBox="0 0 16 16"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 
+                            2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z" />
+                        <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" clip-rule="evenodd" />
+                        <path d="M5 2.905a1 1 0 01.9-.995l8-.8a1 1 0 011.1.995V3L5 4V2.905z" />
+                    </svg>.
+                    I am a musician with multiple projects running
+                    side by side of each other.
+
                     I am hopefully going to release <a href="#"><span class="band-site bg-success text-white">
-                    some of my music soon. </span></a> I have my hands in too many cookie jars because...</p>
-                    <p >
-                    I decided to branch out and pursue different fields of art and I stumbled across
+                            some of my music soon. </span></a> I have my hands in too many cookie jars at the moment...</p>
+                <p> I decided to branch out and pursue different fields of art and I stumbled across
                     web development. The designing, editing and implementation of websites and applications
-                    really appealed to me, so I decided to take it and run as far as I can with it.  I had 
-                    a really good friend inspire me to take up on programming. So far I have tackled C++, python
-                    Java, and the typical Web Development Stack: HTML, CSS & Javascript. My thirst never ends!
-                    
+                    really appealed to me. I decided to take it and run as far as I can with it. I had
+                    a really good friend inspire me to take up on programming and wonderful support from my family. So far I have tackled C++, python
+                    Java, and the typical full stack: HTML, CSS & Javascript. My thirst never ends!
+
                     I am planning on releasing some of my projects soon, soo please check back to my page for
-                    the latest updates. </p>
-            </div>    
+                    the latest updates!
+                </p>
+            </div>
+
+            <!-- MUSIC SECTION -->
+            <div class="row mt-4" id="music-section">
+                <!-- MUSIC SECTION TEXT BOX -->
+                <div class="col-8">
+                    <p> I have been a musician from an very early age. I was tapping on imaginary drums and humming
+                        made up melodies like a carnary since I was a wee lad. It is in my blood it seems and honestly
+                        music
+                        really made me the person that I am today. It was my first area of exploration in the world of
+                        arts.
+                        My first instrument I picked up was the guitar. Now I am experienced with a multitude of
+                        instruments such as
+                        bass, synthesizers, mandolins and even vocals! </p>
+                    <p> If you asked me what type of genre of music I listen to, I would tell you pretty much
+                        everything.
+                        One day I could be listening to drum and bass tracks, cinema scores or the latest black metal
+                        band from Iceland. On another day I could be jamming out to some 70's progressive synth tracks or hip-hop.
+                        To this day I am still embroiled in a multitude of musical projects but my main project is my
+                        band.
+                        <a href="#" class="text-weight-bold">Desert House Saga</a>
+                    </p>
+                </div>
+                <!-- MUSIC SECTION TITLE CARD -->
+                <div class="col-4 p-1">
+                    <h2 class="display-4 card text-center p-1"> <span> <svg class="bi bi-music-note-beamed" width="1em"
+                                height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 
+                        2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z" />
+                                <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" clip-rule="evenodd" />
+                                <path d="M5 2.905a1 1 0 01.9-.995l8-.8a1 1 0 011.1.995V3L5 4V2.905z" />
+                            </svg> MUSIC </span>
+                    </h2>
+                </div>
+            </div>
+
+            <!-- CODING SECTION -->
+            <div class="row row mt-4" id="coding-section">
+                <!-- CODING SECTION TITLE CARD -->
+                <div class="col-4 p-1">
+                    <h2 class="display-4 card text-center p-1">
+                        <span>
+                            <svg class="bi bi-terminal" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M14 2H2a1 1 0 00-1 1v10a1 1 0 001 1h12a1 1 0 001-1V3a1 1 0 00-1-1zM2 1a2 2 0 00-2 
+                                2v10a2 2 0 002 2h12a2 2 0 002-2V3a2 2 0 00-2-2H2z" clip-rule="evenodd" />
+                                <path fill-rule="evenodd" d="M6 9a.5.5 0 01.5-.5h3a.5.5 0 010 1h-3A.5.5 0 016 9zM3.146 4.146a.5.5 0 01.708 0l2 
+                                2a.5.5 0 010 .708l-2 2a.5.5 0 11-.708-.708L4.793 6.5 3.146 4.854a.5.5 0 010-.708z"
+                                    clip-rule="evenodd" />
+                            </svg> CODING
+                        </span>
+                    </h2>
+                </div>
+                <!-- CODING SECTION TEXT BOX -->
+                <div class="col-8">
+                    <p> Coding is not necessarily a new topic for me. </p>
+                    <p> I have been around the block when it comes to diving into the world of programming <span
+                            class="font-italic"> but..</span> </p>
+                    <p> My issue stems with not knowing how to put it all together. With my pursuit of music it was far
+                        easier because
+                        I had amazing teachers and an outstanding supportive family helping to guide me. They helped quell the
+                        questions and countless
+                        doubts inside of me. After trying to go solo for a bit I decided to join a full stack dev
+                        bootcamp. So far it has pushed
+                        me to be a better programmer, a better student
+                        and a better person overall. Hopefully, I can continue on this track and push myself to higher
+                        heights!
+                    </p>
+                </div>
+            </div>
         </div>
-        
-        <div class="row">
 
+        <div class="row" id="goals-section">
+            <div class="row mt-4">
+                <div class="row mt-4">
+                    <div class="col-8">
+                        <p> When it comes to goals I have a crap-ton of them. Here is a list of some of those goals I would like to
+                            accomplish!</p>
+                        <h4>Personal Goals</h4>
+                        <ul>
+                            <li>Become a better programmer</li>
+                            <li>To hold a job doing full stack web development</li>
+                            <li>Finishing and releasing my band's album</li>
+                            <li>Pen a novel.</li>
+                            <li>Learn how to properly speak and write Spanish.</li>
+                            <li>Be more physical fit.</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4 p-1">
+                        <h2 class="display-4 card text-center p-1">
+                            <span>
+                                <svg class="bi bi-trophy" width="1em" height="1em" viewBox="0 0 16 16"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3 1h10c-.495 3.467-.5 10-5 10S3.495 4.467 3 1zm0 15a1 1 0 011-1h8a1 1 0 011 1H3zm2-1a1 1 0 011-1h4a1 1 0 011 1H5z" />
+                                    <path fill-rule="evenodd"
+                                        d="M12.5 3a2 2 0 100 4 2 2 0 000-4zm-3 2a3 3 0 116 0 3 3 0 01-6 0zm-6-2a2 2 0 100 4 2 2 0 000-4zm-3 2a3 3 0 116 0 3 3 0 01-6 0z"
+                                        clip-rule="evenodd" />
+                                    <path d="M7 10h2v4H7v-4z" />
+                                    <path d="M10 11c0 .552-.895 1-2 1s-2-.448-2-1 .895-1 2-1 2 .448 2 1z" />
+                                </svg> GOALS
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
 
     </div>
+    <br><br>
+    <br><br>
 
 
+    <!-- FOOTER BANNER -->
+    <a href="#top" id="topNav" class="text-success pt-4">
+        <p class="text-center">Take me to the Top!</p>
+    </a>
+    <footer class="footer  bg-success text-white text-center p-4">
+        <div class="container">
+            <span class="text-muted"></span>
+            <small>Mark Anthony Patrick Rodriguez &copy;2020 </small>
+        </div>
+    </footer>
 
-   
-    <br><br><br>
-
-    
-   <!--  <nav class= "d-flex p-3 mb-0 bg-success sticky-bottom">
-        <a href="about.html" class="bHover text-white  p-3">About</a>
-        <a href="#" class="bHover text-white  p-3">Portfolio</a>
-        <a href="#" class="bHover text-white p-3 pr-5">Contact</a>
-        <img src="#" alt="Github Icon">
-        <img src="#" alt="LinkedIn Icon">
-        <img src="#" alt="Youtube Icon">
-    </nav> -->
-    
 </body>
+
 </html>

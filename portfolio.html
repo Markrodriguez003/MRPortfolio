@@ -1,28 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Mark Anthony Patrick Rodriguez">
     <!-- <link rel="stylesheet" href="reset.css"> -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Mark Rodriguez | Junior Full Stack Developer</title>
 </head>
 
-<!-- SITE HEADER BANNER -->
-    <nav class="top-header d-flex flex-wrap p-4 bg-success p-4 border-bottom border-secondary">
+<body>
+
+    <!-- SITE HEADER BANNER -->
+    <nav class="top-header d-flex flex-wrap p-4 bg-success p-4 border-bottom border-secondary" id="top">
         <a href="index.html" class="header-brand navbar-Brand text-white flex-grow-1 flex-wrap font-weight-bold ">
             <img src="imgs/brand-logo.png" alt="Four Leaf Clover Logo"> <!-- copyright https://ya-webdesign.com/ -->
             Mark Anthony Patrick Rodriguez |
-                <small class="font-italic">Full Stack Web Developer</small>
+            <small class="font-italic">Full Stack Web Developer</small>
         </a>
-            <ul class="list-unstyled float-right pt-3 pr-4">
-                <a href="about.html" class="text-white p-3 bg-secondary rounded ">About</a>
-                <a href="#" class="text-white  p-3 bg-secondary rounded">Portfolio</a>
-                <a href="#" class=" text-white  p-3 bg-secondary rounded ">Contact</a>
-            </ul>
-
-            
+        <ul class=" header-btns list-unstyled float-right pt-3 pr-4">
+            <a href="about.html" class="text-white p-3 bg-secondary rounded ">About</a>
+            <a href="portfolio.html" class="text-white  p-3 bg-secondary rounded">Portfolio</a>
+            <a href="contact.html" class=" text-white  p-3 bg-secondary rounded ">Contact</a>
+        </ul>
     </nav><br><br>
+
+    <!-- PORTFOLIO SECTION -->
+
+    <h1 class="leader p-4 text-center">Porfolio</h1>
+    <hr>
+    <!-- APP IMAGES -->
+    <div class="container p-3  portfolio-section">
+        <div class="row text-center border border-secondary p-2">
+            <div class="col p-2">
+                <a href="#" class="text-dark">
+                    <img src="imgs/Word.png" alt="Word Guess Icon">
+                        <h4>Word Guess</h4>
+                </a>
+            </div>
+            <div class="col p-2">
+                <a href="" class="text-dark">
+                    <img src="imgs/RPG.png" alt="RPG Icon">
+                    <h4>RPG</h4>
+                </a>
+            </div>
+        </div>
+        <div class="row text-center border border-secondary p-2">
+            <div class="col p-2">
+                <a href="#" class="text-dark">
+                    <img src="imgs/Trivia.png" alt="Trivia Icon">
+                        <h4>Trivia Game</h4>
+                </a>
+            </div>
+            <div class="col p-2">
+               <a href="#" class="text-dark">
+                    <img src="imgs/Quiz.png" alt="Info Widget Icon">
+                        <h4>Info Widget </h4>
+               </a>
+            </div>
+        </div>
+        <div class="row text-center border border-secondary p-2">
+            <div class="col p-2">
+               <a href="#" class="text-dark">
+                 <img src="imgs/PRS.png" alt="Rock Paper Scissors Icon">
+                     <h4>Rock Paper Scissors </h4>
+               </a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+
+    <!-- FOOTER BANNER -->
+    <a href="#top" id="topNav" class="text-success pt-4">
+        <p class="text-center">Take me to the Top!</p>
+    </a>
+    <footer class="footer  bg-success text-white text-center p-4">
+        <div class="container">
+            <span class="text-muted"></span>
+            <small>Mark Anthony Patrick Rodriguez &copy;2020 </small>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

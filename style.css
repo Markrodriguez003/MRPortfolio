@@ -1,3 +1,26 @@
+/*  GLOBAL CSS */
+
+@media (max-width: 800px){
+ 
+    .header-brand .header-small{
+       text-align: center !important;
+       padding:0 !important;
+       margin:0 !important;
+       font-size:18
+    }
+
+    .top-header .header-btns {
+        text-align: center;
+    }
+
+}
+
+#topNav{
+    font-size: 24px !important;
+    
+}
+
+
 .top-header{
     font-size: 18px;
 }
@@ -5,29 +28,22 @@
     font-size: 22px;
 }
 
-.header-brand small{
-    font-size: 13px;
+.top-header .header-small{
+    font-size: 16px;
+}
+.separator{
+    font-size: 22px !important;
 }
 
-@media (max-width: 800px){
-    
-    .top-header a {
-        text-align: center;
-        position: inline;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
-   
-
-/*     .top-header small {
-     
-    } */
-
-    .top-header ul {
-        padding-top: 12px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+/* ABOUT ME CSS */
+.about-image{
+    width:85%;
+}   
+.guitar-pic{
+    width: 35%;
+    float: right;
 }
+
+/* PORTFOLIO CSS */
+ 
